@@ -1,0 +1,26 @@
+
+h1 {
+    color:#0E92B6 ;
+    font-size: 40;
+}
+p {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    background-color: #11BE14 ;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 6px;
+    width: 100px;
+    transition: 0.5s;
+}
+a:hover {
+    background-color: #0a8b0c ;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5s;
+    
+}
