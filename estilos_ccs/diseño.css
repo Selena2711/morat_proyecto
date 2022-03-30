@@ -1,5 +1,8 @@
-
-h1 {
+@import url('https://fonts.googleapis.com/css2? family= Inconsolata:wght@200;300;400;500;600;700;800;900 & familia= Oswald:peso@200;300;400;500 &family= Work+Sans:ital, wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400 & display=swap');
+  body{
+      font-family: 'Oswald', sans-serif;
+  }
+h1  { 
     color:#0E92B6 ;
     font-size: 40;
 }
@@ -23,4 +26,18 @@ a:hover {
     padding-right: 20px;
     transition: 0.5s;
     
+}
+
+body {
+    font-family: Verdana;
+    margin: 0;
+}
+header { 
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10%;
+}
+header > h1 {
+    display: inline-block;
+    margin-left: 30px;
 }
