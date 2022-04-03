@@ -1,24 +1,35 @@
-@import url('https://fonts.googleapis.com/css2? family= Inconsolata:wght@200;300;400;500;600;700;800;900 & familia= Oswald:peso@200;300;400;500 &family= Work+Sans:ital, wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400 & display=swap');
-  body{
-      font-family: 'Oswald', sans-serif;
-  }
+@import url( 'https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap' );
+
+body {
+  font-family :  'Oswald' , sans-serif;
+  margin: 0;
+  
+ }
 h1  { 
-    color:#0E92B6 ;
-    font-size: 40;
+    color: white ;
+    font-size: 3em;
+    margin: 0;
+    display: inline-block;
 }
 p {
     text-align: center;
 }
 a {
     text-decoration: none;
-    background-color: #11BE14 ;
+    background-color:#11be14 ;
     color: white;
-    padding: 5px;
+    padding: 10px 25px;
     margin: 10px;
     font-weight: bold;
     border-radius: 6px;
     width: 100px;
+    border-left-style: solid;
+    border-left-color: white;
+    border-right-style: solid;
+    border-right-color: white;
     transition: 0.5s;
+
+    
 }
 a:hover {
     background-color: #0a8b0c ;
@@ -28,16 +39,26 @@ a:hover {
     
 }
 
-body {
-    font-family: Verdana;
-    margin: 0;
+div#encabezado{
+    background-color: #11be14 ;
+    padding: 3px 10%;
+}
+div#contenido-principal{
+    padding: 10px 15%;
+}
+
 }
 header { 
     background-color: cornflowerblue;
     color: white;
-    padding: 10%;
+    padding right: 10%;
 }
 header > h1 {
     display: inline-block;
     margin-left: 30px;
+}
+
+.anclar-derecha{
+    padding-top: 25px;
+    float: right;
 }
