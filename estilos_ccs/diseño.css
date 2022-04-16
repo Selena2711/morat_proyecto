@@ -13,9 +13,7 @@ h1  {
     display: inline-block;
 }
 p {
-    text-align: center;
- 
-    
+    text-align: center;   
 }
 a {
     text-decoration: none;
@@ -41,15 +39,9 @@ a:hover {
     transition: 0.5s;
     
 }
-
-div#encabezado{
-    background-color: #1d4396 ;
-    padding: 3px 10%;
-}
-div#contenido-principal{
-   padding: 10px 15%;
-}
-
+/*div#contenido-principal{
+    padding: 10px 15%;
+}*/
 
 .anclar-derecha{
     padding-top: 25px;
@@ -83,22 +75,52 @@ div.personajes img{
     border-top-left-radius: 6px;
 }
 
-div#pie-pagina{
-    background-color: #232228;
+/*div#pie-pagina {
+    background-color: #061027;
     padding: 100px 10%;
     color: white;
-    padding:30px 10%;
-       
-}
+}*/
+
 
 header { 
-    background-color: cornflowerblue;
+    background-color: rgb(52, 88, 156);
     color: white;
-    padding right: 10%;
+    padding right:10%;
 }
 header > h1 {
     display: inline-block;
     margin-left: 30px;
 }
 
+div#encabezado{
+    background-color: #1d4396 ;
+    padding: 3px 10%;
+}
+/*min-width => anchura minima
+  max-width => anchura maxima
+  min-height => altura minima
+  max-height => altura maxima
+*/
+@media screen and (max-width: 820px) {
+div#encabezado {
+    padding:3px 0;
+    }   
+}
+@media screen and (max-width: 620px) {
+div#encabezado div.anclar-derecha{
+    display: none; 
 
+    }  
+div#encabezado{
+    text-align: center;
+}  
+}
+div#contenido-principal{
+    padding: 10px 15%;
+}
+
+div#pie-pagina {
+    background-color: #061027;
+    padding: 100px 10%;
+    color: white;
+}
