@@ -39,9 +39,6 @@ a:hover {
     transition: 0.5s;
     
 }
-/*div#contenido-principal{
-    padding: 10px 15%;
-}*/
 
 .anclar-derecha{
     padding-top: 25px;
@@ -75,25 +72,6 @@ div.personajes img{
     border-top-left-radius: 6px;
 }
 
-/*div#pie-pagina {
-    background-color: #061027;
-    padding: 100px 10%;
-    color: white;
-}*/
-
-
-header { 
-    background-color: rgb(52, 88, 156);
-    color: white;
-    padding right: 10%;
-
-}
-
-header > h1 {
-    display: inline-block;
-    margin-left: 30px;
-}
-
 div#encabezado{
     background-color: #1d4396 ;
     padding: 3px 10%;
@@ -125,4 +103,16 @@ div#pie-pagina {
     background-color: #202122;
     padding: 100px 10%;
     color: white;
+}
+header{
+    background-color: #1d4396 ;
+    padding: 3px 10%;
+
+}
+
+footer{
+    background-color: #202122;
+    padding: 100px 10%;
+    color: white;
+
 }
