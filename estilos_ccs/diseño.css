@@ -48,7 +48,7 @@ a:hover {
 .color-blanco{
     color: white;
 }
-div.personajes{
+div.integrantes{
     width: 200px;
     display: inline-block;
     text-align: center;
@@ -59,14 +59,15 @@ div.personajes{
     border-style: solid;
     border-color: white;
 }
-div.personajes:hover{
+div.integrantes :hover{
+    
     border-color: rgb(84, 190, 155);
     background-color:rgb(84, 190, 155);
     color: white;
     transition: 0.5s;
  
 }
-div.personajes img{
+div.integrantes img{
     width: 100%;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
