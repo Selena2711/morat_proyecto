@@ -45,10 +45,14 @@ a:hover {
     float: right;
 }
 
+
+    
+
+
 .color-blanco{
     color: white;
 }
-div.integrantes{
+div.personaje {
     width: 200px;
     display: inline-block;
     text-align: center;
@@ -59,7 +63,7 @@ div.integrantes{
     border-style: solid;
     border-color: white;
 }
-div.integrantes :hover{
+div.personaje:hover{
     
     border-color: rgb(84, 190, 155);
     background-color:rgb(84, 190, 155);
@@ -67,7 +71,7 @@ div.integrantes :hover{
     transition: 0.5s;
  
 }
-div.integrantes img{
+div.personaje img{
     width: 100%;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
