@@ -1,26 +1,28 @@
-@import url( 'https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap' );
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 body {
-  background-color: white;
-  font-family :  'Oswald' , sans-serif;
-  margin: 0;
-  
- }
-h1  { 
-    color: white ;
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+
+}
+
+h1 {
+    color: white;
     font-size: 3em;
     margin: 0;
     display: inline-block;
 }
+
 p {
     text-align: justify;
-    
+
 
 }
 
- a {
+a {
     text-decoration: none;
-    background-color:#1d4396 ;
+    background-color: #1d4396;
     color: white;
     padding: 10px;
     margin: 10px 20px;
@@ -33,24 +35,26 @@ p {
     border-right-color: white;
     transition: 0.5s;
 
-    
+
 }
+
 a:hover {
-    background-color: #0a255e  ;
+    background-color: #0a255e;
     padding-left: 20px;
     padding-right: 20px;
     transition: 0.5s;
-    
+
 }
 
-.anclar-derecha{
+.anclar-derecha {
     padding-top: 25px;
     float: right;
 }
 
-.color-blanco{
+.color-blanco {
     color: white;
 }
+
 div.personaje {
     width: 200px;
     display: inline-block;
@@ -63,66 +67,73 @@ div.personaje {
     border-color: white;
 }
 
-div.personaje:hover{
-    
+div.personaje:hover {
+
     border-color: rgb(84, 190, 155);
-    background-color:rgb(84, 190, 155);
+    background-color: rgb(84, 190, 155);
     color: white;
     transition: 0.5s;
- 
+
 }
-div.personaje img{
+
+div.personaje img {
     width: 100%;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
 }
 
-div#encabezado{
-    background-color: #1d4396 ;
+div#encabezado {
+    background-color: #1d4396;
     padding: 3px 10%;
 }
+
 /*min-width => anchura minima
   max-width => anchura maxima
   min-height => altura minima
   max-height => altura maxima
 */
 @media screen and (max-width: 820px) {
-div#encabezado {
-    padding:3px 0;
-    }   
+    div#encabezado {
+        padding: 3px 0;
+    }
 }
-@media screen and (max-width: 620px) {
-div#encabezado div.anclar-derecha{
-    display: none; 
 
-    }  
-div#encabezado{
-    text-align: center;
-}  
+@media screen and (max-width: 620px) {
+    div#encabezado div.anclar-derecha {
+        display: none;
+
+    }
+
+    div#encabezado {
+        text-align: center;
+    }
 }
-div#contenido-principal{
+
+div#contenido-principal {
     padding: 10px 15%;
 }
 
-div#pie-pagina { 
-    
+div#pie-pagina {
+
     background-color: #202122;
     padding: 100px 10%;
     color: white;
-    
+
 }
-header{
-    background-color: #1d4396 ;
+
+header {
+    background-color: #1d4396;
     padding: 3px 10%;
 
 }
 
-footer{
+footer {
     background-color: #202122;
     padding: 100px 10%;
     color: white;
 
 }
-.centrado{
+
+.centrado {
     text-align: center;
 }
